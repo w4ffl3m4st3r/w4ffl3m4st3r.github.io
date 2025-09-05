@@ -5,23 +5,26 @@ body {
 }
 
 h1 {
-    font-family: Bahnschrift;
+    font-family: Calibri;
 }
 
 h2 {
-    font-family: Bahnschrift;
+    font-family: Calibri;
+    font-size: 28px;
 };
 
 h2 {
-    font-family: Bahnschrift;
+    font-family: Calibri;
 }
 
 h3 {
-    font-family: Bahnschrift;
+    font-family: Calibri;
+    font-size: 23px;
 }
 
 h4 {
-    font-family: Bahnschrift;
+    font-family: Calibri;
+    font-size:  20px;
 }
 .foto-hond  {
     size:100px ;
@@ -34,4 +37,79 @@ h4 {
     border-radius: 4px;
   padding: 5px;
   width: 500px;
+}
+
+
+nav {
+      background-color: #333;
+      padding: 10px;
+      font-size: 25px;
+      font-family: Calibri;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color:blueviolet;
+    }  
+
+.tekstjeict {
+    text-align: left;
+    font-size: 20px;
+    width: 700px;
+    margin-left: 70px;
+    margin-top: -20px;
+    background-color: thistle; 
+      padding: 10px;           
+      background: linear-gradient(to right, lightblue, plum);
+      border-radius: 12px;
+}
+
+.foto-graauwrock {
+size: 1px;
+width: 350px;
+float: right;
+margin-right: 60px;
+margin-top: -220px;
+
+}
+
+.foto-boef-evi {
+  width: 350px;
+  margin-left: -300px;
+  margin-top: 20px;
+}
+
+.waarom {
+  text-align: left;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+.vraag {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: -5px;
+}
+
+.antwoord {
+  text-align: left;
+  margin-left: 60px;
+  margin-top: -20px;
 }
