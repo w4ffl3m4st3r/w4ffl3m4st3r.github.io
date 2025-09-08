@@ -47,6 +47,7 @@ h4 {
 
 nav {
       background-color: #333;
+      border-radius: 5px;
       padding: 10px;
       font-size: 25px;
       font-family: Calibri;
@@ -146,9 +147,10 @@ margin-top: -200px;
 
 .dashboardtable {
   position: relative;
-  margin-top: 15px ;
+  margin-top: 10px ;
   margin-bottom: 1000px;
-  top: 200px;
+  top: 100px;
+  
 }
 
 th, td {
@@ -162,4 +164,53 @@ th, td {
 table {
   margin-left: 100px;
   width: 70%;
+  transform: scale(1.0);
 }
+
+    #menu-toggle {
+      display: none;
+    }
+
+    .menu-btn {
+      font-family: Calibri;
+      font-size: 20px;
+      cursor: pointer;
+      background-color: #333;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      margin: 10px;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 1px;
+      margin-left: -70px;
+    }
+
+    .asidemenu {
+      height: 35%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #333;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+    }
+
+    .asidemenu a {
+      padding: 12px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      color: white;
+      display: block;
+      transition: 0.2s;
+    }
+
+    .asidemenu a:hover {
+      background-color: #333;
+    }
+
+    #menu-toggle:checked ~ .asidemenu {
+      width: 200px;
+    }
