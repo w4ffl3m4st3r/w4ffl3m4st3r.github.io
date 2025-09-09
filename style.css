@@ -1,40 +1,43 @@
-
 body {
-    text-align: center;
-    background-color:azure
+  text-align: center;
+  background-color: azure
 }
 
 h1 {
-    font-family: Calibri;
+  font-family: Calibri;
 }
 
 h2 {
-    font-family: Calibri;
-    font-size: 28px;
-};
+  font-family: Calibri;
+  font-size: 28px;
+}
+
+;
 
 h2 {
-    font-family: Calibri;
+  font-family: Calibri;
 }
 
 h3 {
-    font-family: Calibri;
-    font-size: 23px;
+  font-family: Calibri;
+  font-size: 23px;
 }
 
 h4 {
-    font-family: Calibri;
-    font-size:  20px;
+  font-family: Calibri;
+  font-size: 20px;
 }
-.foto-hond  {
-    size:100px ;
-    border-radius: 1px;
+
+.foto-hond {
+  size: 100px;
+  border-radius: 1px;
   padding: 1px;
   width: 300px;
 }
+
 .foto-band {
-    size:100px ;
-    border-radius: 4px;
+  size: 100px;
+  border-radius: 4px;
   padding: 5px;
   width: 500px;
 }
@@ -46,60 +49,62 @@ h4 {
 
 
 nav {
-      background-color: #333;
-      border-radius: 5px;
-      padding: 10px;
-      font-size: 25px;
-      font-family: Calibri;
-      position: fixed;
-      z-index: 100000;
-      width: 40%;
-    }
+  background-color: #333;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 25px;
+  font-family: Calibri;
+  /* position: fixed; */
+  /* z-index: 100000; */
+  /* width: 40%; */
+  position: sticky;
+  top: 10px;
+}
 
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-    }
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
-    nav ul li {
-      margin-right: 20px;
-    }
+nav ul li {
+  margin-right: 20px;
+}
 
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    nav ul li a:hover {
-      color:blueviolet;
-    }  
+nav ul li a:hover {
+  color: blueviolet;
+}
 
-    nav ul li a.active { 
-      color: blueviolet;
-      font-weight: bold;
-    }
+nav ul li a.active {
+  color: blueviolet;
+  font-weight: bold;
+}
 
 .tekstjeict {
-    text-align: left;
-    font-size: 20px;
-    width: 700px;
-    margin-left: 70px;
-    margin-top: -20px;
-    background-color: thistle; 
-      padding: 10px;           
-      background: linear-gradient(to right, lightblue, plum);
-      border-radius: 12px;
+  text-align: left;
+  font-size: 20px;
+  width: 700px;
+  margin-left: 70px;
+  margin-top: -20px;
+  background-color: thistle;
+  padding: 10px;
+  background: linear-gradient(to right, lightblue, plum);
+  border-radius: 12px;
 }
 
 .foto-graauwrock {
-size: 1px;
-width: 350px;
-float: right;
-margin-right: 60px;
-margin-top: -200px;
+  size: 1px;
+  width: 350px;
+  float: right;
+  margin-right: 60px;
+  margin-top: -200px;
 
 }
 
@@ -135,14 +140,15 @@ margin-top: -200px;
 
 .tekstjeindex2 {
   text-align: left;
-    font-size: 20px;
-    width: 700px;
-    margin-left: 500px;
-    margin-top: -20px;
-    background-color: thistle; 
-      padding: 10px;           
-      background: linear-gradient(to left, lightblue, plum);
-      border-radius: 12px;
+  font-size: 20px;
+  width: 700px;
+  margin-left: 500px;
+  margin-top: -20px;
+  background-color: thistle;
+  padding: 10px; 
+  background: linear-gradient(to left, lightblue, plum);
+  border-radius: 12px; 
+  border: 70px;
 }
 
 .totnutoe {
@@ -152,30 +158,32 @@ margin-top: -200px;
 
 .tekstjeindex3 {
   text-align: left;
-    font-size: 20px;
-    width: 700px;
-    margin-left: 200px;
-    margin-top: -20px;
-    background-color: thistle; 
-      padding: 10px;
-      background: linear-gradient(to right, lightblue, plum);
-      border-radius: 12px;
+  font-size: 20px;
+  width: 700px;
+  margin-left: 200px;
+  margin-top: -20px;
+  background-color: thistle;
+  padding: 10px;
+  background: linear-gradient(to right, lightblue, plum);
+  border-radius: 12px;
+  border: 70px;
 }
 
 .dashboardtable {
   position: relative;
-  margin-top: 10px ;
+  margin-top: 10px;
   margin-bottom: 1000px;
   top: 100px;
-  
+
 }
 
-th, td {
+th,
+td {
   padding-top: 10px;
   padding-bottom: 20px;
   padding-left: 30px;
   padding-right: 40px;
-  
+
 }
 
 table {
@@ -184,56 +192,56 @@ table {
   transform: scale(1.0);
 }
 
-    #menu-toggle {
-      display: none;
-    }
+#menu-toggle {
+  display: none;
+}
 
-    .menu-btn {
-      font-family: Calibri;
-      font-size: 20px;
-      cursor: pointer;
-      background-color: #333;
-      color: white;
-      padding: 10px 15px;
-      border: none;
-      border-radius: 5px;
-      display: inline-block;
-      position: fixed;
-      top: 62px;
-      left: 8px;
-    }
+.menu-btn {
+  font-family: Calibri;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  position: fixed;
+  top: 62px;
+  left: 8px;
+}
 
-    .asidemenu {
-      height: 35%;
-      width: 0;
-      position: fixed;
-      top: 7,5px;
-      left: 2;
-      background-color: #333;
-      overflow-x: hidden;
-      transition: 0.3s;
-      padding-top: 60px;
-      border-radius: 12px;
-    }
+.asidemenu {
+  /* height: 35%; */
+  width: 0px;
+  position: fixed;
+  /* top: 7, 5px; */
+  /* left: 2; */
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  border-radius: 12px;
+  top: 62px;
+}
 
-    .asidemenu a {
-      display: inline-block;
-      margin-inline: 15px;
-      margin-top: -10px;
-      margin-left: 10px;
-      padding: 16px;
-      text-decoration: none;
-      font-size: 17px;
-      font-family: Calibri;
-      color: white;
-      transition: 0.2s;
-      float: center;
-    }
+.asidemenu a {
+  display: inline-block;
+  margin-inline: 15px;
+  margin-top: -10px;
+  margin-left: 10px;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Calibri;
+  color: white;
+  transition: 0.2s;
+}
 
-    .asidemenu a:hover {
-      background-color: #333;
-    }
+.asidemenu a:hover {
+  background-color: #333;
+}
 
-    #menu-toggle:checked ~ .asidemenu {
-      width: 160px;
-    }
+#menu-toggle:checked~.asidemenu {
+  width: 160px;
+}
