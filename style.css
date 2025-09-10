@@ -12,12 +12,6 @@ h2 {
   font-size: 28px;
 }
 
-;
-
-h2 {
-  font-family: Calibri;
-}
-
 h3 {
   font-family: Calibri;
   font-size: 23px;
@@ -28,18 +22,48 @@ h4 {
   font-size: 20px;
 }
 
+.tekstevi {
+text-align: left;
+background-color: rgb(230, 191, 230);
+padding: 10px;
+border-radius: 12px;
+width: 800px;
+margin-left: 100px;
+}
+
+.watzijnmijn {
+ top: -250px;
+position: relative;
+
+}
+
+.hobbys {
+  text-align: left;
+  background-color: rgb(162, 182, 189);
+  padding: 10px;
+  border-radius: 12px;
+  width: 800px;
+  margin-left: 400px;
+  margin-top: -250px;
+  
+}
+
 .foto-hond {
-  size: 100px;
   border-radius: 1px;
   padding: 1px;
-  width: 300px;
+  width: 230px;
+  /* position: relative; */
+  margin-top: -340px;
+  margin-left: 930px;
 }
 
 .foto-band {
-  size: 100px;
   border-radius: 4px;
   padding: 5px;
-  width: 500px;
+  width: 350px;
+  position: relative;
+  margin-right: 850px;
+ 
 }
 
 .title {
@@ -103,7 +127,7 @@ nav ul li a.active {
   size: 1px;
   width: 350px;
   float: right;
-  margin-right: 60px;
+  margin-right: 6px;
   margin-top: -200px;
 
 }
@@ -148,12 +172,12 @@ nav ul li a.active {
   padding: 10px; 
   background: linear-gradient(to left, lightblue, plum);
   border-radius: 12px; 
-  border: 70px;
+  /* border: 70px; */
 }
 
 .totnutoe {
   margin-top: 40px;
-  margin-right: -180px;
+  margin-left: 12px;
 }
 
 .tekstjeindex3 {
@@ -166,7 +190,7 @@ nav ul li a.active {
   padding: 10px;
   background: linear-gradient(to right, lightblue, plum);
   border-radius: 12px;
-  border: 70px;
+  /* border: 70px; */
 }
 
 .dashboardtable {
