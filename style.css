@@ -366,6 +366,16 @@ tr {
 }
 
 /* EINDE DAHSBOARD */
+
+/* BEGIN FAQ */
+
+.faq {
+  background-color: rgba(119, 100, 193, 0.675);
+}
+
+/* EINDE FAQ */
+
+
 /* BEGIN ASIDE MENU */
 #menu-toggle {
   display: none;
