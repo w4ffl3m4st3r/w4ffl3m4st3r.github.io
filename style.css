@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  background-color: azure
+  background-color: azure;
+  /* padding-top: 80px; */
 }
 
 h1 {
@@ -83,6 +84,7 @@ nav {
   /* width: 40%; */
   position: sticky;
   top: 10px;
+  z-index: 1000;
 }
 
 nav ul {
@@ -193,28 +195,68 @@ nav ul li a.active {
   /* border: 70px; */
 }
 
+.toetsenopdrachten {
+position: relative;
+margin-top: 50px;
+margin-right: 400px;
+}
+
 .dashboardtable {
   position: relative;
-  margin-top: 10px;
+  margin-top: 1px;
   margin-bottom: 1000px;
-  top: 100px;
-
+  right: -60px;
+  /* top: 100px; */
+  font-family: Calibri ;
+  text-align: center;
+  border-style:double;
+  border-collapse: separate;
+  margin-top: -70px;
 }
 
 th,
 td {
-  padding-top: 10px;
+  /* padding-top: 10px;
   padding-bottom: 20px;
   padding-left: 30px;
-  padding-right: 40px;
+  padding-right: 40px; */
+  padding: 8px 12px;
+  border: 1px solid azure;
+  border-collapse: collapse;
+  background-color: #c3a1e96b;
+}
 
+.overigen {
+margin-right: 400px;
+margin-top: -1000px;
+position: relative;
+}
+
+.dashboardtable2 {
+position: relative;
+  /* margin-top: -100px; */
+  margin-bottom: 10px;
+  right: -60px;
+  top: -20px;
+  font-family: Calibri ;
+  text-align: center;
+  border-style:double;
+  border-collapse: separate;
+  margin-top: -7px;
 }
 
 table {
-  margin-left: 100px;
-  width: 70%;
-  transform: scale(1.0);
+  margin-left: 80px;
+  width: 80%;
+  transform: scale(0.8); 
+  font-family: Calibri;
 }
+
+
+tr {
+  border-bottom: 1px solid #85b399;
+}
+
 
 #menu-toggle {
   display: none;
@@ -264,6 +306,7 @@ table {
 
 .asidemenu a:hover {
   background-color: #333;
+  color: blueviolet;
 }
 
 #menu-toggle:checked~.asidemenu {
