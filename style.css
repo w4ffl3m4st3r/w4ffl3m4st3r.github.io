@@ -369,8 +369,23 @@ tr {
 
 /* BEGIN FAQ */
 
-.faq {
-  background-color: rgba(119, 100, 193, 0.675);
+.faqvraag {
+  background: rgba(119, 100, 193, 0.675);
+  margin: 20px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  width: 700px;
+
+  text-align: left;
+}
+
+.faqantwoord {
+  background: rgba(165, 148, 234, 0.524) ;
+  text-align: left;
+  padding: 10px;
+  border-radius: 12px;
+  font-weight: 550;
 }
 
 /* EINDE FAQ */
