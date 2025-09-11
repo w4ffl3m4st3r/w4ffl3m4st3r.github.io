@@ -23,18 +23,20 @@ h4 {
   font-size: 20px;
 }
 
+/* BEGIN PROFILE */
+
 .tekstevi {
-text-align: left;
-background-color: rgb(230, 191, 230);
-padding: 10px;
-border-radius: 12px;
-width: 800px;
-margin-left: 100px;
+  text-align: left;
+  background-color: rgb(230, 191, 230);
+  padding: 10px;
+  border-radius: 12px;
+  width: 800px;
+  margin-left: 100px;
 }
 
 .watzijnmijn {
- top: -250px;
-position: relative;
+  top: -250px;
+  position: relative;
 
 }
 
@@ -46,7 +48,7 @@ position: relative;
   width: 800px;
   margin-left: 400px;
   margin-top: -250px;
-  
+
 }
 
 .foto-hond {
@@ -64,15 +66,48 @@ position: relative;
   width: 350px;
   position: relative;
   margin-right: 850px;
- 
+
+}
+.favobands {
+position: relative;
+right: 400px;
+top: -120px;
 }
 
+ul.listbands {
+  list-style-type: square;
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  background-color: rgb(163, 204, 194);
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: -260px;
+  margin-right: 800px;
+}
 .title {
   margin-top: 15px;
   margin-left: 100px;
 }
 
+ul.listsocials {
+  list-style-type: none ;
+  background-color: #c4afdc77;
+  padding: 10px;
+  border-radius: 12px;
+  width: 100px;
+  font-family: Calibri;
+  position: relative;
+  top: -100px;
+  left: 400px;
 
+}
+
+/* EINDE PROFILE */
+
+/* BEGIN NAVBAR */
 nav {
   background-color: #333;
   border-radius: 5px;
@@ -113,6 +148,8 @@ nav ul li a.active {
   font-weight: bold;
 }
 
+/* EINDE NAVBAR */
+
 .tekstjeict {
   text-align: left;
   font-size: 20px;
@@ -146,7 +183,7 @@ nav ul li a.active {
   margin-left: 100px;
   margin-top: 40px;
 }
-
+/* 
 .vraag {
   text-align: left;
   margin-left: 30px;
@@ -157,8 +194,11 @@ nav ul li a.active {
   text-align: left;
   margin-left: 60px;
   margin-top: -20px;
-}
+} */
 
+
+
+/* BEGIN INDEX */
 .watbereiken {
   margin-left: 180px;
   margin-top: -225px;
@@ -171,9 +211,9 @@ nav ul li a.active {
   margin-left: 500px;
   margin-top: -20px;
   background-color: thistle;
-  padding: 10px; 
+  padding: 10px;
   background: linear-gradient(to left, lightblue, plum);
-  border-radius: 12px; 
+  border-radius: 12px;
   /* border: 70px; */
 }
 
@@ -195,10 +235,78 @@ nav ul li a.active {
   /* border: 70px; */
 }
 
+.eigenschap {
+  font-size: 25px;
+  text-align: left;
+  width: 500px;
+  margin-left: 100px;
+}
+
+ul.listcharacter {
+  list-style-type: square;
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+  background: linear-gradient(to left, rgb(203, 242, 255), rgb(183, 173, 230));
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 25px;
+  margin-top: -20px;
+  margin-right: 500px;
+}
+
+.latenzien {
+  font-size: 20px;
+}
+
+.pizza {
+  font-size: 18px;
+  right: 200px;
+  position: relative;
+}
+
+.blanck {
+  font-size: 18px;
+  position: relative;
+  top: -162px;
+  left: 250px;
+  width: 1000px;
+}
+
+.linkbutton1 {
+  width: 100px; 
+  cursor: pointer;       
+  transition: transform 0.2s;
+  right: 150px;
+  position: relative;
+}
+
+.linkbutton1:hover {
+  transform: scale(1.05);          
+}
+
+.linkbutton2 {
+  width: 100px; 
+  cursor: pointer;       
+  transition: transform 0.2s;
+  position: relative;
+  left: 150px;
+  top: -164px;
+}
+
+.linkbutton2:hover {
+  transform: scale(1.05);          
+}
+
+/* EINDE INDEX */
+
+
+/* BEGIN DASHBOARD */
 .toetsenopdrachten {
-position: relative;
-margin-top: 50px;
-margin-right: 400px;
+  position: relative;
+  margin-top: 50px;
+  margin-right: 400px;
 }
 
 .dashboardtable {
@@ -207,9 +315,9 @@ margin-right: 400px;
   margin-bottom: 1000px;
   right: -60px;
   /* top: 100px; */
-  font-family: Calibri ;
+  font-family: Calibri;
   text-align: center;
-  border-style:double;
+  border-style: double;
   border-collapse: separate;
   margin-top: -70px;
 }
@@ -227,20 +335,20 @@ td {
 }
 
 .overigen {
-margin-right: 400px;
-margin-top: -1000px;
-position: relative;
+  margin-right: 400px;
+  margin-top: -1000px;
+  position: relative;
 }
 
 .dashboardtable2 {
-position: relative;
+  position: relative;
   /* margin-top: -100px; */
   margin-bottom: 10px;
   right: -60px;
   top: -20px;
-  font-family: Calibri ;
+  font-family: Calibri;
   text-align: center;
-  border-style:double;
+  border-style: double;
   border-collapse: separate;
   margin-top: -7px;
 }
@@ -248,7 +356,7 @@ position: relative;
 table {
   margin-left: 80px;
   width: 80%;
-  transform: scale(0.8); 
+  transform: scale(0.8);
   font-family: Calibri;
 }
 
@@ -257,7 +365,8 @@ tr {
   border-bottom: 1px solid #85b399;
 }
 
-
+/* EINDE DAHSBOARD */
+/* BEGIN ASIDE MENU */
 #menu-toggle {
   display: none;
 }
@@ -312,3 +421,5 @@ tr {
 #menu-toggle:checked~.asidemenu {
   width: 160px;
 }
+
+/* EINDE ASIDE MENU */
