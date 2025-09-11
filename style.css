@@ -68,10 +68,11 @@ h4 {
   margin-right: 850px;
 
 }
+
 .favobands {
-position: relative;
-right: 400px;
-top: -120px;
+  position: relative;
+  right: 400px;
+  top: -120px;
 }
 
 ul.listbands {
@@ -87,13 +88,14 @@ ul.listbands {
   margin-top: -260px;
   margin-right: 800px;
 }
+
 .title {
   margin-top: 15px;
   margin-left: 100px;
 }
 
 ul.listsocials {
-  list-style-type: none ;
+  list-style-type: none;
   background-color: #c4afdc77;
   padding: 10px;
   border-radius: 12px;
@@ -183,6 +185,7 @@ nav ul li a.active {
   margin-left: 100px;
   margin-top: 40px;
 }
+
 /* 
 .vraag {
   text-align: left;
@@ -275,20 +278,20 @@ ul.listcharacter {
 }
 
 .linkbutton1 {
-  width: 100px; 
-  cursor: pointer;       
+  width: 100px;
+  cursor: pointer;
   transition: transform 0.2s;
   right: 150px;
   position: relative;
 }
 
 .linkbutton1:hover {
-  transform: scale(1.05);          
+  transform: scale(1.05);
 }
 
 .linkbutton2 {
-  width: 100px; 
-  cursor: pointer;       
+  width: 100px;
+  cursor: pointer;
   transition: transform 0.2s;
   position: relative;
   left: 150px;
@@ -296,7 +299,7 @@ ul.listcharacter {
 }
 
 .linkbutton2:hover {
-  transform: scale(1.05);          
+  transform: scale(1.05);
 }
 
 /* EINDE INDEX */
@@ -381,7 +384,7 @@ tr {
 }
 
 .faqantwoord {
-  background: rgba(165, 148, 234, 0.524) ;
+  background: rgba(165, 148, 234, 0.524);
   text-align: left;
   padding: 10px;
   border-radius: 12px;
@@ -448,3 +451,68 @@ tr {
 }
 
 /* EINDE ASIDE MENU */
+
+/* BEGIN BLOG */
+
+.swot {
+  float: left;
+  margin-left: 70px;
+  background: #9eceb3;
+  width: 500px;
+  font-family: Calibri;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.studychoice {
+  float: right;
+  margin-right: 70px;
+  background: #9eceb3;
+  width: 500px;
+  font-family: Calibri;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+
+.programmeer {
+  margin-top: 100px;
+  float: left;
+  margin-left: 70px;
+  background: #9eceb3;
+  width: 500px;
+  font-family: Calibri;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+
+.feedback {
+  margin-top: 100px;
+  float: right;
+  margin-right: 70px;
+  background: #9eceb3;
+  width: 500px;
+  font-family: Calibri;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.swcolor {
+  color: blueviolet;
+}
+
+.sccolor {
+  color: blueviolet;
+}
+
+.pecolor {
+color: blueviolet;
+}
+
+.fbcolor {
+color: blueviolet;
+}
+
+
+/* EINDE BLOG */
