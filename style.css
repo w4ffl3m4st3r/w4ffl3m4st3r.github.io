@@ -263,3 +263,26 @@ tr {
     width: 60%;
   }
 }
+
+@media (min-width: 1440px) {
+  .tekstevi,
+  .hobbys,
+  .favobands,
+  ul.listbands,
+  .tekstjeict,
+  .tekstjeindex2,
+  .tekstjeindex3,
+  .eigenschap,
+  ul.listcharacter,
+  .swot,
+  .studychoice,
+  .programmeer,
+  .feedback,
+  .beroep,
+  .faqvraag,
+  .faqantwoord,
+  .dashboardtable,
+  .dashboardtable2 {
+    max-width: 1200px;
+  }
+}
