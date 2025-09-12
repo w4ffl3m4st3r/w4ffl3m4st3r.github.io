@@ -43,7 +43,7 @@ h4 {
 
 .hobbys {
   text-align: left;
-  background-color: rgb(162, 182, 189);
+  background-color: rgb(176, 208, 220);
   padding: 10px;
   border-radius: 12px;
   width: 800px;
@@ -390,11 +390,8 @@ tr {
 }
 
 .asidemenu {
-  /* height: 35%; */
   width: 0px;
   position: fixed;
-  /* top: 7, 5px; */
-  /* left: 2; */
   background-color: #333;
   overflow-x: hidden;
   transition: 0.3s;
@@ -430,63 +427,75 @@ tr {
 /* BEGIN BLOG */
 
 .swot {
-  float: left;
-  margin-left: 70px;
-  background: #9eceb3;
-  width: 500px;
+  margin: auto;
+  background: #88c8d6b4;
+  width: 80%;
   font-family: Calibri;
   border-radius: 12px;
   padding: 10px;
+  margin-bottom: 40px;
 }
 
 .studychoice {
-  float: right;
-  margin-right: 70px;
-  background: #9eceb3;
-  width: 500px;
+  margin: auto;
+  background: #88c8d6b4;
+  width: 80%;
   font-family: Calibri;
   border-radius: 12px;
   padding: 10px;
+  margin-bottom: 40px;
 }
 
 
 .programmeer {
-  margin-top: 100px;
-  float: left;
-  margin-left: 70px;
-  background: #9eceb3;
-  width: 500px;
+  margin: auto;
+  background: #88c8d6b4;
+  width: 80%;
   font-family: Calibri;
   border-radius: 12px;
   padding: 10px;
+  margin-bottom: 40px;
 }
 
 
 .feedback {
-  margin-top: 100px;
-  float: right;
-  margin-right: 70px;
-  background: #9eceb3;
-  width: 500px;
+  margin: auto;
+  background: #88c8d6b4;
+  width: 80%;
   font-family: Calibri;
   border-radius: 12px;
   padding: 10px;
+  margin-bottom: 40px;
+}
+
+.beroep {
+  margin: auto;
+  background: #88c8d6b4;
+  width: 80%;
+  font-family: Calibri;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 40px;
 }
 
 .swcolor {
-  color: rgb(180, 134, 224);
+  color: rgba(80, 0, 155, 0.654);
 }
 
 .sccolor {
-  color: rgb(180, 134, 224);
+  color: rgba(80, 0, 155, 0.654);
 }
 
 .pecolor {
-color: rgb(180, 134, 224);
+color: rgba(80, 0, 155, 0.654);
 }
 
 .fbcolor {
-color: rgb(180, 134, 224);
+color: rgba(80, 0, 155, 0.654);
+}
+
+.pfcolor {
+color: rgba(80, 0, 155, 0.654);
 }
 
 
