@@ -1,68 +1,115 @@
-/* ====== BASIS ====== */
 body {
   text-align: center;
   background-color: azure;
-  margin: 0;
-  padding: 0;
+  /* padding-top: 80px; */
 }
 
-h1, h2, h3, h4 {
+h1 {
   font-family: Calibri;
 }
 
-h2 { font-size: 28px; }
-h3 { font-size: 23px; }
-h4 { font-size: 20px; }
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+h2 {
+  font-family: Calibri;
+  font-size: 28px;
 }
 
-/* ====== PROFILE ====== */
-.tekstevi,
-.hobbys,
-.favobands,
-ul.listbands,
-ul.listsocials {
-  max-width: 90%;
-  margin: 20px auto;
-  display: block;
-  padding: 10px;
-  border-radius: 12px;
+h3 {
+  font-family: Calibri;
+  font-size: 23px;
+}
+
+h4 {
+  font-family: Calibri;
   font-size: 20px;
 }
 
+/* BEGIN PROFILE */
+
 .tekstevi {
+  text-align: left;
   background-color: rgb(230, 191, 230);
+  padding: 10px;
+  border-radius: 12px;
+  width: 800px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.watzijnmijn {
+  top: -300px;
+  position: relative;
+
 }
 
 .hobbys {
+  text-align: left;
   background-color: rgb(176, 208, 220);
+  padding: 10px;
+  border-radius: 12px;
+  width: 800px;
+  margin-left: 400px;
+  margin-top: -300px;
+  font-size: 20px;
+}
+
+.foto-hond {
+  border-radius: 1px;
+  padding: 1px;
+  width: 230px;
+  margin-top: -200px;
+  margin-left: 930px;
+}
+
+.foto-band {
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+  margin-right: 850px;
+
+}
+
+.favobands {
+  position: relative;
+  right: 400px;
+  top: 20px;
 }
 
 ul.listbands {
   list-style-type: square;
   list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
   background-color: rgb(163, 204, 194);
+  border-radius: 12px;
+  padding: 10px;
   font-size: 25px;
+  margin-top: 10px;
+  margin-right: 800px;
+}
+
+.title {
+  margin-top: 10px;
+  margin-left: 100px;
 }
 
 ul.listsocials {
   list-style-type: none;
   background-color: #c4afdc77;
+  padding: 10px;
+  border-radius: 12px;
+  width: 100px;
+  font-family: Calibri;
   font-weight: 700;
-  width: fit-content;
+  position: relative;
+  top: -200px;
+  left: 400px;
+
 }
 
-.foto-hond,
-.foto-band {
-  margin: 20px auto;
-  border-radius: 5px;
-}
+/* EINDE PROFILE */
 
-/* ====== NAVBAR ====== */
+/* BEGIN NAVBAR */
 nav {
   background-color: #333;
   border-radius: 5px;
@@ -79,12 +126,10 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 nav ul li {
-  margin: 5px 10px;
+  margin-right: 20px;
 }
 
 nav ul li a {
@@ -93,112 +138,243 @@ nav ul li a {
   font-weight: bold;
 }
 
-nav ul li a:hover,
-nav ul li a.active {
+nav ul li a:hover {
   color: rgb(180, 134, 224);
 }
 
-/* ====== INDEX ====== */
-.tekstjeict,
-.tekstjeindex2,
-.tekstjeindex3,
-.eigenschap,
-ul.listcharacter {
-  max-width: 90%;
-  margin: 20px auto;
-  padding: 10px;
-  border-radius: 12px;
-  font-size: 20px;
+nav ul li a.active {
+  color: rgb(180, 134, 224);
+  font-weight: bold;
 }
 
+/* EINDE NAVBAR */
+
+/* BEGIN INDEX */
 .tekstjeict {
+  text-align: left;
+  font-size: 20px;
+  width: 700px;
+  margin-left: 70px;
+  margin-top: -20px;
+  background-color: thistle;
+  padding: 10px;
   background: linear-gradient(to right, lightblue, plum);
+  border-radius: 12px;
+}
+
+.foto-graauwrock {
+  size: 1px;
+  width: 350px;
+  float: right;
+  margin-right: 6px;
+  margin-top: -200px;
+
+}
+
+.foto-boef-evi {
+  width: 350px;
+  margin-left: -300px;
+  margin-top: 20px;
+}
+
+.waarom {
+  text-align: left;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.watbereiken {
+  margin-left: 180px;
+  margin-top: -225px;
 }
 
 .tekstjeindex2 {
+  text-align: left;
+  font-size: 20px;
+  width: 700px;
+  margin-left: 500px;
+  margin-top: -20px;
+  background-color: thistle;
+  padding: 10px;
   background: linear-gradient(to left, lightblue, plum);
+  border-radius: 12px;
+
+}
+
+.totnutoe {
+  margin-top: 40px;
+  margin-left: 12px;
 }
 
 .tekstjeindex3 {
+  text-align: left;
+  font-size: 20px;
+  width: 700px;
+  margin-left: 200px;
+  margin-top: -20px;
+  background-color: thistle;
+  padding: 10px;
   background: linear-gradient(to right, lightblue, plum);
+  border-radius: 12px;
+
 }
 
 .eigenschap {
   font-size: 25px;
+  text-align: left;
+  width: 500px;
+  margin-left: 100px;
 }
 
 ul.listcharacter {
   list-style-type: square;
   list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
   background: linear-gradient(to left, rgb(203, 242, 255), rgb(183, 173, 230));
-  font-size: 25px;
-}
-
-.foto-graauwrock,
-.foto-boef-evi {
-  margin: 20px auto;
-}
-
-/* ====== BLOG ====== */
-.swot,
-.studychoice,
-.programmeer,
-.feedback,
-.beroep {
-  margin: 20px auto;
-  background: #88c8d6b4;
-  width: 90%;
-  font-family: Calibri;
   border-radius: 12px;
   padding: 10px;
+  font-size: 25px;
+  margin-top: -20px;
+  margin-right: 500px;
 }
 
-.swcolor, .sccolor, .pecolor, .fbcolor, .pfcolor {
-  color: rgba(80, 0, 155, 0.654);
+.latenzien {
+  font-size: 20px;
 }
 
-/* ====== DASHBOARD ====== */
-.dashboardtable,
-.dashboardtable2 {
-  margin: 20px auto;
+.pizza {
+  font-size: 18px;
+  right: 200px;
+  position: relative;
+}
+
+.blanck {
+  font-size: 18px;
+  position: relative;
+  top: -162px;
+  left: 250px;
+  width: 1000px;
+}
+
+.linkbutton1 {
+  width: 100px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  right: 150px;
+  position: relative;
+}
+
+.linkbutton1:hover {
+  transform: scale(1.05);
+}
+
+.linkbutton2 {
+  width: 100px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  position: relative;
+  left: 150px;
+  top: -164px;
+}
+
+.linkbutton2:hover {
+  transform: scale(1.05);
+}
+
+/* EINDE INDEX */
+
+/* BEGIN DASHBOARD */
+.toetsenopdrachten {
+  position: relative;
+  margin-top: 50px;
+  margin-right: 400px;
+}
+
+.dashboardtable {
+  position: relative;
+  margin-top: 1px;
+  right: -60px;
   font-family: Calibri;
   text-align: center;
   border-style: double;
-  border-collapse: collapse;
-  width: 90%;
-  max-width: 800px;
+  border-collapse: separate;
+  margin-top: -70px;
 }
 
-th, td {
+.dashboardtable th,
+.dashboardtable td {
   padding: 8px 12px;
   border: 1px solid azure;
+  border-collapse: collapse;
   background-color: #c3a1e96b;
 }
 
-tr {
-  border-bottom: 1px solid #85b399;
+.overigen {
+  margin-right: 400px;
+  position: relative;
 }
 
-/* ====== FAQ ====== */
-.faqvraag,
-.faqantwoord {
-  margin: 20px auto;
-  padding: 10px;
-  border-radius: 12px;
-  max-width: 90%;
+.dashboardtable2 {
+  position: relative;
+  margin-bottom: 10px;
+  right: -60px;
+  top: -20px;
+  font-family: Calibri;
+  text-align: center;
+  border-style: double;
+  border-collapse: separate;
+  margin-top: -7px;
 }
+
+.dashboardtable2 th,
+.dashboardtable2 td {
+  padding: 8px 12px;
+  border: 1px solid azure;
+  border-collapse: collapse;
+  background-color: #c3a1e96b;
+}
+
+.dashboardtable,
+.dashboardtable2 {
+  margin-left: 80px;
+  width: 80%;
+  transform: scale(0.8);
+  font-family: Calibri;
+}
+
+
+/* EINDE DAHSBOARD */
+
+/* BEGIN FAQ */
 
 .faqvraag {
   background: rgba(119, 100, 193, 0.675);
+  margin: 20px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  width: 700px;
+
+  text-align: left;
 }
 
 .faqantwoord {
   background: rgba(165, 148, 234, 0.524);
+  text-align: left;
+  padding: 10px;
+  border-radius: 12px;
   font-weight: 550;
 }
 
-/* ====== ASIDE MENU ====== */
-#menu-toggle { display: none; }
+/* EINDE FAQ */
+
+/* BEGIN ASIDE MENU */
+#menu-toggle {
+  display: none;
+}
 
 .menu-btn {
   font-family: Calibri;
@@ -227,8 +403,10 @@ tr {
 }
 
 .asidemenu a {
-  display: block;
-  margin: 5px 10px;
+  display: inline-block;
+  margin-inline: 15px;
+  margin-top: -10px;
+  margin-left: 10px;
   padding: 16px;
   text-decoration: none;
   font-size: 17px;
@@ -238,37 +416,163 @@ tr {
 }
 
 .asidemenu a:hover {
+  background-color: #333;
   color: rgb(180, 134, 224);
 }
 
-#menu-toggle:checked ~ .asidemenu {
+#menu-toggle:checked~.asidemenu {
   width: 160px;
 }
 
-/* ====== MEDIA QUERIES ====== */
-@media (min-width: 768px) {
-  .tekstevi, .hobbys, .favobands, ul.listbands {
-    max-width: 700px;
-  }
-  .swot, .studychoice, .programmeer, .feedback, .beroep {
-    width: 70%;
-  }
+/* EINDE ASIDE MENU */
+
+/* BEGIN BLOG */
+
+.swot {
+  margin: auto;
+  background: #88c8d6b4;
+  width: 80%;
+  font-family: Calibri;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 40px;
 }
 
-@media (min-width: 1024px) {
-  .tekstevi, .hobbys, .favobands, ul.listbands {
-    max-width: 800px;
-  }
-  .swot, .studychoice, .programmeer, .feedback, .beroep {
-    width: 60%;
-  }
+.studychoice {
+  margin: auto;
+  background: #88c8d6b4;
+  width: 80%;
+  font-family: Calibri;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 40px;
 }
 
-@media (min-width: 1440px) {
+.programmeer {
+  margin: auto;
+  background: #88c8d6b4;
+  width: 80%;
+  font-family: Calibri;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.feedback {
+  margin: auto;
+  background: #88c8d6b4;
+  width: 80%;
+  font-family: Calibri;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.beroep {
+  margin: auto;
+  background: #88c8d6b4;
+  width: 80%;
+  font-family: Calibri;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.swcolor, .pecolor, .sccolor, .fbcolor, .pfcolor {
+  color: rgba(80, 0, 155, 0.654);
+}
+
+/* SWOT */
+
+
+
+.swottable {
+  font-family: Calibri;
+  background-color: rgba(248, 172, 232, 0.476);
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+  border-collapse: separate;
+  margin-left: 10%;
+  width: 80%;
+
+}
+
+.swottable th,
+.swottable td {
+  border-spacing: 20px;
+  padding: 15px;
+  border-style: dashed;
+  border-color: azure;
+}
+
+
+
+.swottable tr {
+  border-style: dashed;
+}
+
+/* STUDYCHOICE */
+
+.studieactiviteit {
+  font-family: Calibri;
+  background-color: rgba(248, 172, 232, 0.476);
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  float: left;
+  width: 50%;
+}
+
+.studiemotivatie {
+  font-family: Calibri;
+  background-color: rgba(248, 172, 232, 0.476);
+  border-radius: 12px;
+  padding: 10px;
+  float: right;
+  margin-right: 60px;
+  width: 70% ;
+}
+
+/* PROGRAMMING EXPERIENCE */
+
+.ervaringprogrammeren {
+  font-family: Calibri;
+  background-color: rgba(248, 172, 232, 0.476);
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 60px;
+  float: left;
+  width: 50%;
+}
+
+.evaluatie {
+font-family: Calibri;
+  background-color: rgba(248, 172, 232, 0.476);
+  border-radius: 12px;
+  padding: 10px;
+  float: right;
+  margin-right: 60px;
+  width: 70% ;
+}
+
+
+/* EINDE BLOG */
+
+/* ====== RESPONSIVE FIXES ====== */
+
+/* Voor tablets en kleinere schermen */
+@media (max-width: 1024px) {
+
   .tekstevi,
   .hobbys,
   .favobands,
   ul.listbands,
+  ul.listsocials,
   .tekstjeict,
   .tekstjeindex2,
   .tekstjeindex3,
@@ -283,6 +587,60 @@ tr {
   .faqantwoord,
   .dashboardtable,
   .dashboardtable2 {
-    max-width: 1200px;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 5px;
+  }
+}
+
+/* Voor mobiele schermen */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  .foto-hond,
+  .foto-band,
+  .foto-graauwrock,
+  .foto-boef-evi {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  nav {
+    font-size: 18px;
+  }
+
+  .menu-btn {
+    font-size: 16px;
+    padding: 8px 12px;
   }
 }
