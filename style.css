@@ -478,7 +478,11 @@ ul.listcharacter {
   margin-bottom: 40px;
 }
 
-.swcolor, .pecolor, .sccolor, .fbcolor, .pfcolor {
+.swcolor,
+.pecolor,
+.sccolor,
+.fbcolor,
+.pfcolor {
   color: rgba(80, 0, 155, 0.654);
 }
 
@@ -533,7 +537,7 @@ ul.listcharacter {
   padding: 10px;
   float: right;
   margin-right: 60px;
-  width: 70% ;
+  width: 70%;
 }
 
 /* PROGRAMMING EXPERIENCE */
@@ -551,16 +555,23 @@ ul.listcharacter {
 }
 
 .evaluatie {
-font-family: Calibri;
+  font-family: Calibri;
   background-color: rgba(248, 172, 232, 0.476);
   border-radius: 12px;
   padding: 10px;
   float: right;
   margin-right: 60px;
-  width: 70% ;
+  width: 70%;
 }
 
 /* FEEDBACK */
+
+.poster {
+  width: 50%;
+  background: rgba(160, 198, 205, 0.712);
+  border-radius: 12px;
+  padding: 10px;
+}
 
 .feedbackaiden {
   background-color: rgba(160, 198, 205, 0.712);
@@ -571,7 +582,7 @@ font-family: Calibri;
   width: 80%;
   margin: auto;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -579,7 +590,7 @@ font-family: Calibri;
   width: 30%;
   float: left;
   text-align: left;
-  
+
 }
 
 .feedbackaiden2 {
@@ -604,7 +615,7 @@ font-family: Calibri;
   width: 80%;
   margin: auto;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -612,7 +623,7 @@ font-family: Calibri;
   width: 30%;
   float: left;
   text-align: left;
-  
+
 }
 
 .feedbackaron2 {
@@ -630,7 +641,7 @@ font-family: Calibri;
   width: 80%;
   margin: auto;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -638,7 +649,7 @@ font-family: Calibri;
   width: 30%;
   float: left;
   text-align: left;
-  
+
 }
 
 .feedbackthijs2 {
@@ -656,7 +667,7 @@ font-family: Calibri;
   width: 80%;
   margin: auto;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -677,6 +688,41 @@ font-family: Calibri;
   margin-top: 50px;
 }
 
+/* PROFESSION */
+
+.infodateklogo {
+  width: 30%;
+  border-radius: 12px;
+  padding: 10px;
+}
+.functietabel {
+  font-family: Calibri;
+  background-color: rgba(35, 224, 199, 0.199);
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+  border-collapse: separate;
+  margin-left: 10%;
+  width: 80%;
+
+}
+
+.functietabel th,
+.functietabel td {
+  border-spacing: 20px;
+  padding: 15px;
+  border-style: double;
+  border-color: rgba(64, 164, 164, 0.705);
+}
+
+.wieinfodatek {
+  font-family: Calibri;
+  background-color: rgba(160, 198, 205, 0.712);
+  border-radius: 12px;
+  padding: 10px;
+  width: 60%;
+  margin: auto;
+}
 /* EINDE BLOG */
 
 /* ====== RESPONSIVE FIXES ====== */
