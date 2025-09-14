@@ -1,7 +1,7 @@
 body {
   text-align: center;
   background-color: azure;
-  /* padding-top: 80px; */
+
 }
 
 h1 {
@@ -560,6 +560,122 @@ font-family: Calibri;
   width: 70% ;
 }
 
+/* FEEDBACK */
+
+.feedbackaiden {
+  background-color: rgba(160, 198, 205, 0.712);
+  border-radius: 12px;
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+.feedbackaiden1 {
+  width: 30%;
+  float: left;
+  text-align: left;
+  
+}
+
+.feedbackaiden2 {
+  width: 30%;
+  float: left;
+  text-align: left;
+}
+
+.verbeterpunten {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin: auto
+}
+
+.feedbackaron {
+  background-color: rgba(160, 198, 205, 0.712);
+  border-radius: 12px;
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+.feedbackaron1 {
+  width: 30%;
+  float: left;
+  text-align: left;
+  
+}
+
+.feedbackaron2 {
+  width: 30%;
+  float: left;
+  text-align: left;
+}
+
+.feedbackthijs {
+  background-color: rgba(160, 198, 205, 0.712);
+  border-radius: 12px;
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+.feedbackthijs1 {
+  width: 30%;
+  float: left;
+  text-align: left;
+  
+}
+
+.feedbackthijs2 {
+  width: 30%;
+  float: left;
+  text-align: left;
+}
+
+.feedbackta {
+  background-color: rgba(160, 198, 205, 0.712);
+  border-radius: 12px;
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+.feedbackta1 {
+  width: 30%;
+  float: left;
+  text-align: left;
+}
+
+.conclude {
+  background-color: rgba(160, 198, 205, 0.712);
+  border-radius: 12px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
 
 /* EINDE BLOG */
 
